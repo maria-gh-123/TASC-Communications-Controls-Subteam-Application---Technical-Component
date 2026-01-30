@@ -1,4 +1,5 @@
 # TASC-Communications-Controls-Subteam-Application---Technical-Component
 Technical Component for the TASC Communications &amp; Controls Subteam Application; Simple Publisher and Subscriber node in Python using ROS 2 looking at wheel encoder odometry data.
+
 The data transmitted in this project represents wheel odometry in the form of linear and angular velocity values. These values simulate information typically computed from wheel encoder measurements on a mobile robot or rover. A publisher node continuously outputs this velocity data, while a subscriber node receives and logs it, demonstrating real-time communication between software components using ROS 2.
 Wheel odometry is a critical input for robotics control and navigation systems. Linear and angular velocity estimates are used to track vehicle motion, support closed-loop motor control, and provide state information to higher-level processes such as localization, mapping, and path planning. Implementing this data flow reflects how communication and control subsystems interact in an autonomous rover, making it directly relevant to robotics software, controls, and communication system development.
